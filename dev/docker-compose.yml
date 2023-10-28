@@ -5,7 +5,7 @@ services:
   php:
     build: ./php-images
     volumes:
-      - ../project/public:/var/www
+      - ../project:/var/www/html
     restart: always
     depends_on: 
       - postgres
@@ -17,7 +17,7 @@ services:
     ports:
       - ${NGINX_PORTS:-80:80}
     volumes:
-      - ../project/public:/var/www
+      - ../project:/var/www/html
       - ./nginx:/etc/nginx/conf.d
     environment:
       SERVER_NAME: "localhost"
