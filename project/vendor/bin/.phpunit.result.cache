@@ -1,1 +1,0 @@
-{"version":1,"defects":{"SiteTest::testSignup#0":7,"SiteTest::testSignup#1":7,"SiteTest::testSignup#2":7,"SiteTest::testSignup#3":8,"SiteTest::testLogin#0":8,"SiteTest::testLogin#1":8},"times":{"SiteTest::testSignup#0":0.446,"SiteTest::testSignup#1":0.492,"SiteTest::testSignup#2":0.469,"SiteTest::testSignup#3":0.533,"SiteTest::testLogin#0":0.215,"SiteTest::testLogin#1":0.233}}
